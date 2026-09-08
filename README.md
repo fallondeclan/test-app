@@ -29,7 +29,7 @@ Quiz CLI is an educational terminal application implemented with native JavaScri
 
 1. Clone or download the repository.
 2. Open a terminal in the project directory.
-3. Install the project setup:
+3. Install the project dependencies:
 
    ```bash
    npm install
