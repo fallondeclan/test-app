@@ -1,6 +1,6 @@
 # Quiz CLI
 
-An interactive command-line quiz game for learning and reviewing JavaScript, Node.js, and general programming concepts. The application runs entirely in Node.js, uses built-in modules only, and provides category selection, configurable quiz length, shuffled questions, immediate feedback, explanations, progress tracking, and final score review.
+Quiz CLI is an educational Node.js terminal quiz game for learning and reviewing JavaScript, Node.js, and general programming concepts. It runs with Node.js built-in modules only and provides category selection, configurable quiz length, shuffled questions, immediate feedback, explanations, progress tracking, and final score review.
 
 ## Project Overview
 
@@ -35,7 +35,7 @@ Quiz CLI is an educational terminal application implemented with native JavaScri
    npm install
    ```
 
-The project currently has no external runtime dependencies.
+The project has no external dependencies; the application uses Node.js built-in modules only.
 
 ### Start the application
 
@@ -153,10 +153,12 @@ The application takes questions from the category list and shuffles the selected
 
 ## npm Scripts
 
-| Command | Description |
+| Command | Runs |
 | --- | --- |
-| `npm start` | Launches the interactive quiz CLI. |
-| `npm test` | Runs Node.js's built-in test runner. |
+| `npm start` | `node index.js` |
+| `npm test` | `node --test` |
+
+`npm test` invokes Node.js's built-in test runner. No test files currently exist in the repository, so there are no tests to execute yet.
 
 ## Troubleshooting
 
@@ -177,4 +179,4 @@ The application takes questions from the category list and shuffles the selected
 
 ## License
 
-This project is marked as licensed under the MIT license in `package.json`.
+This project is licensed under the MIT license, as declared by the `license` metadata in `package.json`.
